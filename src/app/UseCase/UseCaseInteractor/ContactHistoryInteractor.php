@@ -22,6 +22,8 @@ final class ContactHistoryInteractor
             $contacts = $this->contactQueryServise->createContactsDataBySearchWord(
                 $this->contactHistoryInput
             );
+            $contactHistoryOutput = new ContactHistoryOutput($contacts);
+            return $contactHistoryOutput;
         }
         $contacts = $this->contactQueryServise->createAllContactsData();
         $contactHistoryOutput = new ContactHistoryOutput($contacts);
