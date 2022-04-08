@@ -1,7 +1,7 @@
 <?php
-namespace App\Presenter;
-require_once __DIR__ . '/../../vendor/autoload.php';
-use App\ViewModel\ContactHistoryViewModel;
+namespace App\Adapter\Presenter;
+require_once __DIR__ . '/../../../vendor/autoload.php';
+use App\Adapter\ViewModel\ContactHistoryViewModel;
 
 /**
  * お問い合わせ履歴の全件表示のコントローラ

@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 use App\UseCase\UseCaseInput\ContactHistoryInput;
 use App\UseCase\UseCaseInteractor\ContactHistoryInteractor;
-use App\Presenter\ContactHistoryPresenter;
+use App\Adapter\Presenter\ContactHistoryPresenter;
 use App\Domain\ValueObject\SearchWord;
 
 $inputSearchWord = filter_input(INPUT_GET, 'searchWord');

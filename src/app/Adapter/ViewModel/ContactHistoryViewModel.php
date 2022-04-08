@@ -1,5 +1,5 @@
 <?php
-namespace App\ViewModel;
+namespace App\Adapter\ViewModel;
 
 /**
  *
